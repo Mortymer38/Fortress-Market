@@ -10,14 +10,14 @@ session_start();                            //session_start() crée une session 
 </head>
 <body>
 
-<div class="textbox">
-<form action="" method="post">
-Identifiant: <input type="text" name="id" class="champ"><br>
-Mot De Passe: <input type="password" name="mdp" class="champ"><br>
-<input type="submit" name="submitbutton" id="valider">
+<div class="textbox">   // définition d'un style spéciale que l'on veut reproduire dans la page
+<form action="" method="post"> //formulaire interactifs délimités par FORM METHOD indique sous quelle forme seront envoyées les réponses « POST » est la valeur qui correspond à un envoi de données stockées dans le corps de la requête
+Identifiant: <input type="text" name="id" class="champ"><br>// Input= balise essentielle pour les formulaires, text: il s'agit d'un champ de saisie permettant la saisie d'une ligne de texte.Le nom du champ sera suivi du caractère "=" puis de la valeur entrée par l'utilisateur
+Mot De Passe: <input type="password" name="mdp" class="champ"><br> // password : il s'agit d'un champ de saisie, dans lequel les caractères saisis apparaissent sous forme d'astérisques afin de camoufler la saisie de l'utilisateur.
+<input type="submit" name="submitbutton" id="valider"> submit: il s'agit du bouton de soumission permettant l'envoi du formulaire. Le texte du bouton peut être précisé grâce à l'attribut value.
 </form>
-</br>
-<a href="inscription.php" style="font-size: 12px; margin-left: 40px;">Pas de compte? Inscrivez-vous ici!</a>
+</br> // br = retour à la ligne
+<a href="inscription.php" style="font-size: 12px; margin-left: 40px;">Pas de compte? Inscrivez-vous ici!</a> // lien vers Inscription.php
 </div>
 
 <?php
