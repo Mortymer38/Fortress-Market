@@ -1,16 +1,16 @@
 <?php
-session_start();
+session_start();                            //session_start() crée une session ou restaure celle trouvée sur le serveur,php va appeler les gestionnaires d'ouverture et de lecture
 ?>
 <!DOCTYPE HTML>
 <html>
 <head> 
-<link  rel="stylesheet" type="text/css" href="css/stylepage.css"> 
-<link  rel="stylesheet" type="text/css" href="Footer/footer.css"> 
+<link  rel="stylesheet" type="text/css" href="css/stylepage.css">         //déclaration d'une feuille de style CSS
+<link  rel="stylesheet" type="text/css" href="Footer/footer.css">        //Intégration d'un bas de page
 <meta charset="UTF-8">
 </head>
 <body>
 
-<div class="textbox"> 
+<div class="textbox">
 <form action="" method="post">
 Identifiant: <input type="text" name="id" class="champ"><br>
 Mot De Passe: <input type="password" name="mdp" class="champ"><br>
